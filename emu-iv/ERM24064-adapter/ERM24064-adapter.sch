@@ -258,36 +258,44 @@ $EndComp
 $Comp
 L Device:R_POT_TRIM RV2
 U 1 1 60F41176
-P 2900 3250
-F 0 "RV2" H 2830 3204 50  0000 R CNN
-F 1 "Trimpot 1k" H 2830 3295 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical" H 2900 3250 50  0001 C CNN
-F 3 "~" H 2900 3250 50  0001 C CNN
-	1    2900 3250
+P 3100 3250
+F 0 "RV2" H 3030 3204 50  0000 R CNN
+F 1 "Trimpot 1k" H 3030 3295 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical" H 3100 3250 50  0001 C CNN
+F 3 "~" H 3100 3250 50  0001 C CNN
+	1    3100 3250
 	-1   0    0    1   
 $EndComp
-$Comp
-L ERM24064-adapter:Backlight_Connector_Mainboard_CN24 J3
-U 1 1 60F4B848
-P 2800 3900
-F 0 "J3" V 2954 3612 50  0000 R CNN
-F 1 "Backlight_Connector_Mainboard_CN24" V 2863 3612 50  0000 R CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2800 3900 50  0001 C CNN
-F 3 "~" H 2800 3900 50  0001 C CNN
-	1    2800 3900
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 2750 3250
-Text GLabel 2900 3050 1    50   Input ~ 0
+Text GLabel 2850 3250 0    50   Input ~ 0
 LED_A
-Text GLabel 2800 3700 1    50   Input ~ 0
+Text GLabel 3000 3700 1    50   Input ~ 0
 LED_K
 Wire Wire Line
-	2900 3700 2900 3400
+	3100 3700 3100 3400
 Wire Wire Line
-	2900 3100 2900 3050
+	3100 3100 3100 3050
 Text GLabel 1650 3200 0    50   Input ~ 0
 LED_A
 Text GLabel 2150 3200 2    50   Input ~ 0
 LED_K
+Wire Wire Line
+	2950 3250 2900 3250
+Wire Wire Line
+	3100 3050 2900 3050
+Wire Wire Line
+	2900 3050 2900 3250
+Connection ~ 2900 3250
+Wire Wire Line
+	2900 3250 2850 3250
+$Comp
+L ERM24064-adapter:Backlight_Connector_Mainboard_CN24 J3
+U 1 1 60F0E76F
+P 3000 3900
+F 0 "J3" V 3154 3712 50  0000 R CNN
+F 1 "Backlight_Connector_Mainboard_CN24" V 3063 3712 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3000 3900 50  0001 C CNN
+F 3 "~" H 3000 3900 50  0001 C CNN
+	1    3000 3900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -36,8 +36,8 @@ S 34 -95 0 -105 1 1 6 F
 S 34 5 0 -5 1 1 6 F
 P 2 1 1 6 50 -100 34 -100 N
 P 2 1 1 6 50 0 34 0 N
+X Pin3_Backlight_Anode_5V 1 200 -100 150 L 50 50 1 1 P
 X Backlight_Cathode 2 200 0 150 L 50 50 1 1 P
-X Backlight_Anode_5V 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
