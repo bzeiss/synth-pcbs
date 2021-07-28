@@ -15,7 +15,7 @@ The ERM24064 is fully compatible to T6963 and is thus mostly a plug and play rep
 
 Use at your own risk.
 
-- [Schematic](https://github.com/bzeiss/synth-pcbs/raw/main/emu-iv/ERM24064-adapter/erm24064-pcblayout.pdf)
+- [Schematic](https://github.com/bzeiss/synth-pcbs/raw/main/emu-iv/ERM24064-adapter/erm24064-schematic.pdf)
 - [PCB layout](https://github.com/bzeiss/synth-pcbs/blob/main/emu-iv/ERM24064-adapter/erm24064-pcblayout.pdf)
 
 <p float="left">
