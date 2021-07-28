@@ -7,11 +7,11 @@ Be smart. Don't just trust the stuff I offer for download here. Take a look at t
 
 Feedback is always very welcome 😄
 
-## EastRising ERM24064 Display adapter EMU E4-Series Samplers
+## EastRising ERM24064 Display adapter E-MU E4-series Samplers
 
 **This hasn't been tested longterm. If you are unsure, I suggest you wait for a while to make sure that there are no unforeseen side effects.**
 
-The ERM24064 is fully compatible to T6963 and is thus mostly a plug and play replacement. However, the contrast needs to be adjusted in order to work with EMU samplers. The adapter PCB provides control for the contrast and backlight through trimpots. Other than that, it's mostly a pass-through PCB and just a (maybe) nicer solution than integrating the trimpots in the wiring. The PCB is a result of pointers given in the E-MU Emulator IV User Group on Facebook who had built this solution already (without a special adapter PCB).
+This is a small adapter PCB for replacing the display for E-MU E4-series samplers (tested with E-MU E5000 Ultra). The ERM24064 is fully compatible to T6963 and is thus mostly a plug and play replacement. However, the contrast needs to be adjusted in order to work with EMU samplers. The adapter PCB provides control for the contrast and backlight through trim pots. Other than that, it's mostly a pass-through PCB and just a (maybe) nicer solution than integrating the trim pots in the wiring. The PCB is a result of pointers given in the E-MU Emulator IV User Group on Facebook who had built this solution already (without a special adapter PCB).
 
 Use at your own risk.
 
@@ -31,8 +31,8 @@ For assembling, the adapter PCB, you'll need the parts in the following table. Y
 
 | Quantity      | Label | Part                                | Example URL |
 | ------------- | ------| -------                             | ----------- |
-| 1             | RV1   | Trimpot 9mm 10k Ohms (contrast)     | https://www.reichelt.de/einstellpotentiometer-liegend-10-kohm-9-mm-ca9pv10-10ka2020-p266604.html?LANGUAGE=EN |
-| 1             | RV2   | Trimpot 9mm 1k Ohms (backlight)     | https://www.reichelt.de/einstellpotentiometer-liegend-1-0-kohm-9-mm-acp-9-l-1k-p110250.html?LANGUAGE=EN |
+| 1             | RV1   | Trim pot 9mm 10k Ohms (contrast)    | https://www.reichelt.de/einstellpotentiometer-liegend-10-kohm-9-mm-ca9pv10-10ka2020-p266604.html?LANGUAGE=EN |
+| 1             | RV2   | Trim pot 9mm 1k Ohms (backlight)    | https://www.reichelt.de/einstellpotentiometer-liegend-1-0-kohm-9-mm-acp-9-l-1k-p110250.html?LANGUAGE=EN |
 | 1             | J1    | 2x11 2.54mm pin socket              | https://www.reichelt.de/buchsenleisten-2-54-mm-2x11-gerade-mpe-094-2-022-p119933.html?LANGUAGE=EN |
 | 1             | J2    | 2x10 2.54mm pin header (shrouded)   | https://www.reichelt.de/wannenstecker-20-pol-gerade-han-520-6324-p175352.html?LANGUAGE=EN |
 
