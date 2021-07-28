@@ -24,10 +24,10 @@ For assembling, the adapter PCB, you'll need the parts in the following table. Y
 
 | Quantity      | Label | Part                                | Example URL |
 | ------------- | ------| -------                             | ----------- |
-| 1             | RV1   | Trimpot 9mm 10k Ohms (contrast)     | https://www.reichelt.de/einstellpotentiometer-liegend-10-kohm-9-mm-ca9pv10-10ka2020-p266604.html |
-| 1             | RV2   | Trimpot 9mm 1k Ohms (backlight)     | https://www.reichelt.de/einstellpotentiometer-liegend-1-0-kohm-9-mm-acp-9-l-1k-p110250.html |
-| 1             | J1    | 2x11 2.54mm pin socket              | https://www.reichelt.de/buchsenleisten-2-54-mm-2x11-gerade-mpe-094-2-022-p119933.html |
-| 1             | J2    | 2x10 2.54mm pin header (shrouded)   | https://www.reichelt.de/wannenstecker-20-pol-gerade-han-520-6324-p175352.html |
+| 1             | RV1   | Trimpot 9mm 10k Ohms (contrast)     | https://www.reichelt.de/einstellpotentiometer-liegend-10-kohm-9-mm-ca9pv10-10ka2020-p266604.html&LANGUAGE=EN |
+| 1             | RV2   | Trimpot 9mm 1k Ohms (backlight)     | https://www.reichelt.de/einstellpotentiometer-liegend-1-0-kohm-9-mm-acp-9-l-1k-p110250.html&LANGUAGE=EN |
+| 1             | J1    | 2x11 2.54mm pin socket              | https://www.reichelt.de/buchsenleisten-2-54-mm-2x11-gerade-mpe-094-2-022-p119933.html&LANGUAGE=EN |
+| 1             | J2    | 2x10 2.54mm pin header (shrouded)   | https://www.reichelt.de/wannenstecker-20-pol-gerade-han-520-6324-p175352.html&LANGUAGE=EN |
 
 In addition, you'll need 
 - a 240x64 ERM24064 T6963 compatible display. I get these from buydisplay: https://www.buydisplay.com/graphic-display/graphic-display-module?resolution=158
