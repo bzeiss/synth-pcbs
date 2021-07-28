@@ -14,11 +14,13 @@ The ERM24064 is fully compatible to T6963 and is thus mostly a plug and play rep
 <p float="left">
   <img src="https://user-images.githubusercontent.com/884834/127341468-0918074d-10b2-4ca4-a909-95c9aaf23048.png" width="250">
   <img src="https://user-images.githubusercontent.com/884834/127341538-cb33b2b2-d624-414b-addd-1f36439a2f29.png" width="250">
-  <img src="https://user-images.githubusercontent.com/884834/127341538-cb33b2b2-d624-414b-addd-1f36439a2f29.png" width="250">
-  <img src="https://user-images.githubusercontent.com/884834/127345071-0c13f12a-3d36-4c66-9a55-e97e7d114562.jpg" width="250">
+  <img src="https://user-images.githubusercontent.com/884834/127345071-0c13f12a-3d36-4c66-9a55-e97e7d114562.jpg" width="350">
+  <img src="https://user-images.githubusercontent.com/884834/127345339-07a29225-bfab-4588-b0c8-9b17fc1d1aa0.jpg" width="450">
 </p>
 
 ### Bill of Materials
+
+For assembling, the adapter PCB, you'll need the parts in the following table. You can order from an electronics shop in your region, but you'll easily find those parts also at mouser or digikey.
 
 | Quantity      | Label | Part                                | Example URL |
 | ------------- | ------| -------                             | ----------- |
@@ -26,3 +28,9 @@ The ERM24064 is fully compatible to T6963 and is thus mostly a plug and play rep
 | 1             | RV2   | Trimpot 9mm 1k Ohms                 | https://www.reichelt.de/einstellpotentiometer-liegend-1-0-kohm-9-mm-acp-9-l-1k-p110250.html |
 | 1             | J1    | 2x11 2.54mm pin socket              | https://www.reichelt.de/buchsenleisten-2-54-mm-2x11-gerade-mpe-094-2-022-p119933.html |
 | 1             | J2    | 2x10 2.54mm pin header (shrouded)   | https://www.reichelt.de/wannenstecker-20-pol-gerade-han-520-6324-p175352.html |
+
+In addition, you'll need a 240x64 ERM24064 T6963 compatible display. I get these from buydisplay: https://www.buydisplay.com/graphic-display/graphic-display-module?resolution=158
+
+### Build instructions
+
+
