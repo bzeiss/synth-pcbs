@@ -36,7 +36,7 @@ For assembling, the adapter PCB, you'll need the parts in the following table. Y
 | 1             | J1    | 2x11 2.54mm pin socket              | https://www.reichelt.de/buchsenleisten-2-54-mm-2x11-gerade-mpe-094-2-022-p119933.html?LANGUAGE=EN |
 | 1             | J2    | 2x10 2.54mm pin header (shrouded)   | https://www.reichelt.de/wannenstecker-20-pol-gerade-han-520-6324-p175352.html?LANGUAGE=EN |
 
-In addition, you'll need 
+In addition, you'll need:
 - a 240x64 ERM24064 T6963 compatible display. I get these from buydisplay: https://www.buydisplay.com/graphic-display/graphic-display-module?resolution=158
 - The PCB itself. Use the [Gerber Zip file](https://github.com/bzeiss/synth-pcbs/raw/main/emu-iv/ERM24064-adapter/gerber/ERM24064-v1.0.zip) and order it from a PCB supplier of your choice. I usually use JLCPCB. If you haven't done this before, search youtube for keywords like "order pcb jlcpcb" or something similar. You can as well use any other supplier like PCBWay or OSH park. I suggest you try to find out the shipping costs involved and choose the cheapest one for your country. The quality is sufficient from any of them (as far as I know).
 
