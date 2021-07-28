@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name ERM24064-adapter)(type Legacy)(uri ${KIPRJMOD}/library/ERM24064-adapter.lib)(options "")(descr ""))
-)
