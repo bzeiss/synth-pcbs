@@ -11,6 +11,8 @@ Feedback is always very welcome 😄
 
 The ERM24064 is fully compatible to T6963 and is thus mostly a plug and play replacement. However, the contrast needs to be adjusted in order to work with EMU samplers. The adapter PCB provides control for the contrast and backlight through trimpots. Other than that, it's mostly a pass-through PCB and just a nicer solution than integrating the trimpots in the wiring. The PCB is a result of pointers given in the E-MU Emulator IV User Group on Facebook who had built this solution (without a special adapter PCB) already.
 
+Use at your own risk.
+
 <p float="left">
   <img src="https://user-images.githubusercontent.com/884834/127341468-0918074d-10b2-4ca4-a909-95c9aaf23048.png" width="250">
   <img src="https://user-images.githubusercontent.com/884834/127341538-cb33b2b2-d624-414b-addd-1f36439a2f29.png" width="250">
