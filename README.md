@@ -25,6 +25,8 @@ Use at your own risk.
   <img src="https://user-images.githubusercontent.com/884834/127345339-07a29225-bfab-4588-b0c8-9b17fc1d1aa0.jpg" width="450">
 </p>
 
+(excuse the soldering, I only had a cheap iron available with no flux and wick).
+
 ### Bill of Materials
 
 For assembling, the adapter PCB, you'll need the parts in the following table. You can order from an electronics shop in your region, but you'll easily find those parts also at mouser or digikey. The example URLs are just that, examples. The trimpots in the URLs and images are slightly different from each other. I bought the parts that were available and didn't care for the exact same model.
