@@ -20,17 +20,27 @@ The ERM24064 is fully compatible to T6963 and is thus mostly a plug and play rep
 
 ### Bill of Materials
 
-For assembling, the adapter PCB, you'll need the parts in the following table. You can order from an electronics shop in your region, but you'll easily find those parts also at mouser or digikey.
+For assembling, the adapter PCB, you'll need the parts in the following table. You can order from an electronics shop in your region, but you'll easily find those parts also at mouser or digikey. The example URLs are just that, examples. The trimpots in the URLs and images are slightly different from each other. I bought the parts that were available and didn't care for the exact same model.
 
 | Quantity      | Label | Part                                | Example URL |
 | ------------- | ------| -------                             | ----------- |
-| 1             | RV1   | Trimpot 9mm 10k Ohms                | https://www.reichelt.de/einstellpotentiometer-liegend-10-kohm-9-mm-ca9pv10-10ka2020-p266604.html |
-| 1             | RV2   | Trimpot 9mm 1k Ohms                 | https://www.reichelt.de/einstellpotentiometer-liegend-1-0-kohm-9-mm-acp-9-l-1k-p110250.html |
+| 1             | RV1   | Trimpot 9mm 10k Ohms (contrast)     | https://www.reichelt.de/einstellpotentiometer-liegend-10-kohm-9-mm-ca9pv10-10ka2020-p266604.html |
+| 1             | RV2   | Trimpot 9mm 1k Ohms (backlight)     | https://www.reichelt.de/einstellpotentiometer-liegend-1-0-kohm-9-mm-acp-9-l-1k-p110250.html |
 | 1             | J1    | 2x11 2.54mm pin socket              | https://www.reichelt.de/buchsenleisten-2-54-mm-2x11-gerade-mpe-094-2-022-p119933.html |
 | 1             | J2    | 2x10 2.54mm pin header (shrouded)   | https://www.reichelt.de/wannenstecker-20-pol-gerade-han-520-6324-p175352.html |
 
 In addition, you'll need a 240x64 ERM24064 T6963 compatible display. I get these from buydisplay: https://www.buydisplay.com/graphic-display/graphic-display-module?resolution=158
 
+Equipment needed:
+- Soldering iron
+- Solder with flux core
+- Optional: solder wick and flux in case you make mistakes in the soldering process.
+
 ### Build instructions
-
-
+- Step 1: Assemble the parts as shown on the images. Make sure you don't solder anything the wrong way round. Use the images as reference.
+- Step 2: Once the PCB is assembled, you plug in the 2x11 pin socket (J1) into the ERM24064 display as shown in the picture. The trimpots point downwards.
+- Step 3: Unplug the sampler from power. Open the E4 sampler. Unplug the cable from the display and put it into the shrouded pin header. The red line points upwards. See picture. Don't permanently mount the display yet, but have it somewhere next to sampler or in your hands. Don't touch any contacts, solder joints etc.
+- Step 4: Make sure both trimpots are adjusted to be somewhere in the middle to start with.
+- Step 5: Turn on the sampler and test the display. Adjust the trimpots. Start with RV1 (contrast) and adjust it until you see the text clearly.
+- Step 6: Adjust RC2 (backlight) and adjust it to your liking. As I'm not sure how much resistance there is on the actual display board, I suggest to have it not fully turned on, but leave some amount of resistance.
+- Step 7: If everything works, you can mount the new display and close the sampler again.
