@@ -31,7 +31,7 @@ For assembling, the adapter PCB, you'll need the parts in the following table. Y
 
 In addition, you'll need 
 - a 240x64 ERM24064 T6963 compatible display. I get these from buydisplay: https://www.buydisplay.com/graphic-display/graphic-display-module?resolution=158
-- The PCB itself. Use the [Gerber Zip file|https://github.com/bzeiss/synth-pcbs/blob/main/emu-iv/ERM24064-adapter/gerber/ERM24064-v1.0.zip] and order it from a PCB supplier of your choice. I usually use JLCPCB. If you haven't done this before, search youtube for keywords like "order pcb jlcpcb" or something similar. You can as well use any other supplier like PCBWay or OSH park. I suggest you try to find out the shipping costs involved and choose the cheapest one for your country. The quality is sufficient from any of them (as far as I know).
+- The PCB itself. Use the ![Gerber Zip file](https://github.com/bzeiss/synth-pcbs/blob/main/emu-iv/ERM24064-adapter/gerber/ERM24064-v1.0.zip) and order it from a PCB supplier of your choice. I usually use JLCPCB. If you haven't done this before, search youtube for keywords like "order pcb jlcpcb" or something similar. You can as well use any other supplier like PCBWay or OSH park. I suggest you try to find out the shipping costs involved and choose the cheapest one for your country. The quality is sufficient from any of them (as far as I know).
 
 Equipment needed:
 - Soldering iron
@@ -45,4 +45,5 @@ Equipment needed:
 - Step 4: Make sure both trimpots are adjusted to be somewhere in the middle to start with.
 - Step 5: Turn on the sampler and test the display. Adjust the trimpots. Start with RV1 (contrast) and adjust it until you see the text clearly.
 - Step 6: Adjust RC2 (backlight) and adjust it to your liking. As I'm not sure how much resistance there is on the actual display board, I suggest to have it not fully turned on, but leave some amount of resistance.
-- Step 7: If everything works, you can mount the new display and close the sampler again.
+- Step 7: If everything works, you can mount the new display. Remove the backlight connector of the old display from the mainboard (CN2 for Ultra mainboards). It's not needed when using the new display and the display adapter as the backlight receives its power from the display connector. 
+- Step 8: close the sampler again.
