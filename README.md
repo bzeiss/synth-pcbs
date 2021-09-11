@@ -9,8 +9,6 @@ Feedback is always very welcome 😄
 
 ## EastRising ERM24064 Display adapter E-MU E4-series Samplers
 
-**This hasn't been tested longterm. If you are unsure, I suggest you wait for a while to make sure that there are no unforeseen side effects.**
-
 This is a small adapter PCB for replacing the display for E-MU E4-series samplers (tested with E-MU E5000 Ultra). The ERM24064 is fully compatible to T6963 and is thus mostly a plug and play replacement. However, the contrast needs to be adjusted in order to work with EMU samplers. The adapter PCB provides control for the contrast and backlight through trim pots. Other than that, it's mostly a pass-through PCB and just a (maybe) nicer solution than integrating the trim pots in the wiring. The PCB is a result of pointers given in the E-MU Emulator IV User Group and Music Gear Display Retrofits on Facebook who had built this solution already (without a special adapter PCB).
 
 Use at your own risk.
