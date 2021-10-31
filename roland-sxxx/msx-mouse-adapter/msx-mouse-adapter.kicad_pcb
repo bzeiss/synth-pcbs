@@ -803,7 +803,7 @@
     (tags "SMD SMT crystal")
     (path /618602E5)
     (attr smd)
-    (fp_text reference Y1 (at 0 -3.7) (layer F.SilkS)
+    (fp_text reference Y1 (at 2.13 3.636) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 16.000Mhz (at 0 3.7) (layer F.Fab)
