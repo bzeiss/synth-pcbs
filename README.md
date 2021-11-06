@@ -7,4 +7,6 @@ Be smart. Don't just trust the stuff I offer for download here. Take a look at t
 
 Feedback is always very welcome 😄
 
-The main content (descriptions, documentations) can be found [in the Wiki](https://github.com/bzeiss/synth-pcbs/wiki).
+***
+
+The main content of this site (descriptions, documentations) can be found **[in the Wiki](https://github.com/bzeiss/synth-pcbs/wiki)**.
