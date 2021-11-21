@@ -60,6 +60,19 @@
 //
 //  MSX-connector : Arduino pin
 //     (DB9F)
+//  #define JoyPin1 2
+//  #define JoyPin2 3
+//  #define JoyPin3 4
+//  #define JoyPin4 5
+//  //      JoyPin5 +5V (N/C or power)
+//  #define JoyPin6 6
+//  #define JoyPin7 7
+//  #define JoyPin8 8
+//  //      JoyPin9 GND (Connect to Arduino GND)
+
+//  #define InfoPin 13 // Status LED
+
+  
   #define JoyPin1 2
   #define JoyPin2 3
   #define JoyPin3 4
@@ -69,6 +82,7 @@
   #define JoyPin7 7
   #define JoyPin8 8
   //      JoyPin9 GND (Connect to Arduino GND)
+
 
   #define InfoPin 13 // Status LED
 
